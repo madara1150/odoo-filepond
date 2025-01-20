@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="action_owl_external_lib" model="ir.actions.client">
+            <field name="name">Input Filepond</field>
+            <field name="tag">upload_filepond.filepond</field>
+        </record>
+        
+        <menuitem
+            id="menu_owl_filepond"
+            name="Filepond"
+            action="action_owl_external_lib"
+            sequence="10"/>
+    
+    </data>
+    
+</odoo>
